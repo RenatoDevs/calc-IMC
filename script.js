@@ -16,7 +16,7 @@ function imc() {
         let classificacao = '';
         
         if (valorIMC < 17 ) {
-            container.style.background = "red";
+            classificacao = 'Muito abaixo do peso. ';
         }else if(valorIMC < 18.5){
             classificacao = 'abaixo do peso. ';
             

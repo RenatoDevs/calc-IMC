@@ -9,21 +9,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(179, 116, 0);
+    background: rgb(0,151,255);
+    background: radial-gradient(circle, rgba(0,151,255,1) 0%, rgba(0,22,255,1) 50%, rgba(0,151,255,1) 100%);
 }
 .calc{
-    width: 500px;
-    min-height: 90vh;
-    box-shadow: 0px 0px  30px black;
-    border-radius: 20px;
-    overflow: hidden;
+    max-width: 500px;
+    min-height: 70vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #f57904;
-    position: relative;
-    margin: 20px 10px;
+    background: rgba(255,255,255,0.2);
 }
 .title{
     
@@ -68,14 +65,12 @@ body{
     height: 40px;
     color: white;
     font-size: 20px ;
-    border-radius: 20px;
     border: none;
-    margin: 20px;
+    margin: 20px 0;
 }
 .result{
-    width: 80%;
+    width: 90%;
     height: 150px;
-    border-radius: 20px;
     background-color: rgb(0, 0, 0);
     font-size: 25px;
     font-weight: 800 ;
@@ -84,7 +79,6 @@ body{
     align-items: center;
     display: flex;
     text-transform: uppercase;
-    padding: 20px;
     color: white;
     margin-bottom: 20px;
 }
