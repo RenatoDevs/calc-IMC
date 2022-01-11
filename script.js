@@ -4,10 +4,10 @@ const calcular = document.getElementById('calcular');
 
 function imc() {
     const nome = document.getElementById('nome').value;
-    const altura = document.getElementById('altura').value;
+    const altura = (document.getElementById('altura').value)/100;
     const peso = document.getElementById('peso').value;
     const resultado = document.getElementById('resultado');
-    const container = document.getElementsByClassName('container');
+   
 
     if (nome !== '' && altura !== '' && peso !== '') {
 
@@ -19,6 +19,7 @@ function imc() {
             classificacao = 'Muito abaixo do peso. ';
         }else if(valorIMC < 18.5){
             classificacao = 'abaixo do peso. ';
+            
             
         }else if(valorIMC < 25){
             classificacao = 'com o peso normal';

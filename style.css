@@ -12,6 +12,7 @@ body{
     background: rgb(0,151,255);
     background: radial-gradient(circle, rgba(0,151,255,1) 0%, rgba(0,22,255,1) 50%, rgba(0,151,255,1) 100%);
 }
+
 .calc{
     max-width: 500px;
     min-height: 70vh;
@@ -69,16 +70,18 @@ body{
     margin: 20px 0;
 }
 .result{
-    width: 90%;
+    width: 100%;
+    max-width: 85%;
     height: 150px;
     background-color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800 ;
-    text-align: justify;
+    text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
     text-transform: uppercase;
     color: white;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
